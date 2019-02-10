@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindAllClientCertsFromStoreForCurrentUser", "FindAllClientCertsFromStoreForCurrentUser\FindAllClientCertsFromStoreForCurrentUser.csproj", "{C605AB07-C877-45A7-BEFA-4AFC2D4C0921}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchForRootCertByNameForCurrentUser", "SearchForRootCertificate\SearchForRootCertByNameForCurrentUser.csproj", "{C7EFD69B-32E3-4D18-89B4-A6F7A088ACB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchForClientCertBySubjectForCurrentUser", "SearchForRootCertBySubjectForCurrentUser\SearchForClientCertBySubjectForCurrentUser.csproj", "{284B499E-BAD0-4EF9-886C-0E5A027EAEA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunClientCertValidation", "RunClientCertValidation\RunClientCertValidation.csproj", "{F76CA5F8-19D1-4C8B-9AC6-8091876F5D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunClientCertValidationCompactVersion", "RunClientCertValidationCompactVersion\RunClientCertValidationCompactVersion.csproj", "{1BA0DFE1-FFC8-4625-86DD-CE41FFF12F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Console.Demos", "1. Console.Demos", "{029093F6-2513-460E-AB70-97DBAB17FD9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Api.Demo", "2. Api.Demo", "{69717637-F2D7-4AD2-A3C0-C7A2A886444A}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. SSLCerts", "0. SSLCerts", "{B2396435-CC03-4A45-B2EE-8EDBD4212D15}"
+	ProjectSection(SolutionItems) = preProject
+		Certs\certPublic.cer = Certs\certPublic.cer
+		Certs\localtestclientcert.cer = Certs\localtestclientcert.cer
+		Certs\localtestclientcert.pfx = Certs\localtestclientcert.pfx
+		Certs\localtestclientcert.pvk = Certs\localtestclientcert.pvk
+		Certs\mylocalsite.local.cer = Certs\mylocalsite.local.cer
+		Certs\mylocalsite.local.pfx = Certs\mylocalsite.local.pfx
+		Certs\mylocalsite.local.pvk = Certs\mylocalsite.local.pvk
+		Certs\RootCertificate.cer = Certs\RootCertificate.cer
+		Certs\RootCertificate.pfx = Certs\RootCertificate.pfx
+		Certs\RootCertificate.pvk = Certs\RootCertificate.pvk
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.ClientCert.Net46Demo", "WebApi.ClientCert.Demo\WebApi.ClientCert.Net46Demo.csproj", "{A59B30AA-61FA-4592-8FE4-6ED22E34B112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientCaller.TestHarness", "ClientCaller\ClientCaller.TestHarness.csproj", "{68622F12-4029-429F-82A6-46B20E5DAD93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.ClientCert.NetCore", "WebApi.ClientCert.NetCore\WebApi.ClientCert.NetCore.csproj", "{192E74A0-E644-4CD7-A978-FAF395C76EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C605AB07-C877-45A7-BEFA-4AFC2D4C0921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C605AB07-C877-45A7-BEFA-4AFC2D4C0921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C605AB07-C877-45A7-BEFA-4AFC2D4C0921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C605AB07-C877-45A7-BEFA-4AFC2D4C0921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EFD69B-32E3-4D18-89B4-A6F7A088ACB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EFD69B-32E3-4D18-89B4-A6F7A088ACB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EFD69B-32E3-4D18-89B4-A6F7A088ACB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EFD69B-32E3-4D18-89B4-A6F7A088ACB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284B499E-BAD0-4EF9-886C-0E5A027EAEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284B499E-BAD0-4EF9-886C-0E5A027EAEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284B499E-BAD0-4EF9-886C-0E5A027EAEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284B499E-BAD0-4EF9-886C-0E5A027EAEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76CA5F8-19D1-4C8B-9AC6-8091876F5D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76CA5F8-19D1-4C8B-9AC6-8091876F5D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76CA5F8-19D1-4C8B-9AC6-8091876F5D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76CA5F8-19D1-4C8B-9AC6-8091876F5D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA0DFE1-FFC8-4625-86DD-CE41FFF12F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA0DFE1-FFC8-4625-86DD-CE41FFF12F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA0DFE1-FFC8-4625-86DD-CE41FFF12F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA0DFE1-FFC8-4625-86DD-CE41FFF12F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59B30AA-61FA-4592-8FE4-6ED22E34B112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59B30AA-61FA-4592-8FE4-6ED22E34B112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59B30AA-61FA-4592-8FE4-6ED22E34B112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59B30AA-61FA-4592-8FE4-6ED22E34B112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68622F12-4029-429F-82A6-46B20E5DAD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68622F12-4029-429F-82A6-46B20E5DAD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68622F12-4029-429F-82A6-46B20E5DAD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68622F12-4029-429F-82A6-46B20E5DAD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192E74A0-E644-4CD7-A978-FAF395C76EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192E74A0-E644-4CD7-A978-FAF395C76EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192E74A0-E644-4CD7-A978-FAF395C76EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192E74A0-E644-4CD7-A978-FAF395C76EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C605AB07-C877-45A7-BEFA-4AFC2D4C0921} = {029093F6-2513-460E-AB70-97DBAB17FD9F}
+		{C7EFD69B-32E3-4D18-89B4-A6F7A088ACB4} = {029093F6-2513-460E-AB70-97DBAB17FD9F}
+		{284B499E-BAD0-4EF9-886C-0E5A027EAEA5} = {029093F6-2513-460E-AB70-97DBAB17FD9F}
+		{F76CA5F8-19D1-4C8B-9AC6-8091876F5D39} = {029093F6-2513-460E-AB70-97DBAB17FD9F}
+		{1BA0DFE1-FFC8-4625-86DD-CE41FFF12F64} = {029093F6-2513-460E-AB70-97DBAB17FD9F}
+		{A59B30AA-61FA-4592-8FE4-6ED22E34B112} = {69717637-F2D7-4AD2-A3C0-C7A2A886444A}
+		{68622F12-4029-429F-82A6-46B20E5DAD93} = {69717637-F2D7-4AD2-A3C0-C7A2A886444A}
+		{192E74A0-E644-4CD7-A978-FAF395C76EFC} = {69717637-F2D7-4AD2-A3C0-C7A2A886444A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0BB776-C8E7-43D4-B7D7-BDF82C009D56}
+	EndGlobalSection
+EndGlobal

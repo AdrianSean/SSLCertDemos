@@ -3,3 +3,19 @@
 ################################################################################
 
 /.vs
+/ClientCaller/bin/Debug/netcoreapp2.1
+/ClientCaller/obj
+/ClientCallerWithNoCert/obj/Debug/netcoreapp2.1
+/FindAllClientCertsFromStoreForCurrentUser/bin/Debug/netcoreapp2.1
+/FindAllClientCertsFromStoreForCurrentUser/obj
+/RunClientCertValidation/bin/Debug/netcoreapp2.1
+/RunClientCertValidation/obj
+/RunClientCertValidationCompactVersion/obj
+/SearchForRootCertBySubjectForCurrentUser/bin/Debug/netcoreapp2.1
+/SearchForRootCertBySubjectForCurrentUser/obj
+/SearchForRootCertificate/bin/Debug/netcoreapp2.1
+/SearchForRootCertificate/obj
+/WebApi.ClientCert.Demo/bin
+/WebApi.ClientCert.Demo/obj
+/WebApi.ClientCert.NetCore/bin
+/WebApi.ClientCert.NetCore/obj
